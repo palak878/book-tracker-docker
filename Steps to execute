@@ -1,0 +1,29 @@
+
+---
+
+## ▶️ How to Run the Project (Step-by-Step)
+
+### ✅ Prerequisites
+Ensure the following are installed:
+- Docker
+- Docker Desktop (running)
+
+---
+
+### 🔹 Step 1: Clone the repository
+```bash
+git clone https://github.com/your-username/book-tracker.git
+cd book-tracker
+
+Build the Docker image
+       docker build -t book-tracker .
+
+
+Run the Docker container
+docker run -p 5000:5000 book-tracker
+
+docker run -p 5000:5000 book-tracker
+
+Running on http://0.0.0.0:5000
+
+http://localhost:5000/books
